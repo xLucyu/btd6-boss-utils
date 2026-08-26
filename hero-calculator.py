@@ -3,30 +3,22 @@ from __future__ import annotations
 from dataclasses import dataclass
 from math import floor
 
-
-
+# CONFIG
 START_ROUND = 1
-
 MAP_DIFFICULTY = "Advanced"
-
-
 ENERGIZER_ROUND: int | None = None
-
-
 MONKEY_EDUCATION = True
 SCHOLARSHIPS = True
 SELF_TAUGHT_HEROES = True
 EMPOWERED_HEROES = True
 MONKEYS_TOGETHER_STRONG = True
-
-
 HEROES = [
     {"hero": "Ezili",   "goallevel": 17, "endround": 120, "replaced": False},
     {"hero": "Ezili",   "goallevel": 7,  "endround": 119, "replaced": False},
     {"hero": "Geraldo", "goallevel": 20, "endround": 122, "replaced": True},
     {"hero": "Etienne", "goallevel": 16, "endround": 120, "replaced": False},
 ]
-
+# ^ replace those for the actual levels
 
 BASE_LEVEL_XP = (
     180,
